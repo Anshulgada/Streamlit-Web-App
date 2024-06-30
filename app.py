@@ -155,10 +155,3 @@ if uploaded_file is not None:
     st.image(uploaded_file, use_column_width=True)
 elif url:
     st.image(url, use_column_width=True)
-
-
-git init
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/Anshulgada/Streamlit-Web-App.git
-git push -u origin main
